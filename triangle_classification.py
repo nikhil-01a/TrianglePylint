@@ -15,18 +15,21 @@ x=int(input())
 y=int(input())
 z=int(input())
 
-#Function to classify triangles
-def classify_triangle(a,b,c):
-    if a+b>c and b+c>a and c+a>b:
-        if a==b and b==c:
-            return 'Equilateral triangle.'
-        elif a==b or b==c or a==c:
+
+def classify_triangle(a_s,b_s,c_s):
+    """
+        Function to classify triangles
+    """
+    if a_s+b_s>c_s and b_s+c_s>a_s and c_s+a_s>b_s:
+        if a_s==b_s and b_s==c_s:
+            return 'Equilateral triangle'
+        elif a_s==b_s or b_s==c_s or a_s==c_s:
             return 'Isosceles triangle.'
-        elif a**2+b**2==c**2 or b**2+c**2==a**2 or c**2+a**2==b**2:
-            return 'Right angled triangle.'
+        elif a_s**2+b_s**2==c_s**2 or b_s**2+c_s**2==a_s**2 or c_s**2+a_s**2==b_s**2:
+            return 'Right angled triangle'
         else:
-            return 'Scalene triangle.'
+            return 'Scalene triangle'
     else:
-        return 'Not a triangle.'
+        return 'Not a triangle'
 
 classify_triangle(x,y,z)
