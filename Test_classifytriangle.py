@@ -8,6 +8,7 @@ The primary goal of this file is to demonstrate a simple unittest implementation
 """
 
 import unittest
+
 from ClassifyTrianglePyLint import classify_triangle
 
 # This code implements the unit test functionality
@@ -34,3 +35,4 @@ class TestTriangles(unittest.TestCase):
 if __name__ == '__main__':
     print('Running unit tests')
     unittest.main()
+
