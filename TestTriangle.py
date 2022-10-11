@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Updated Jan 21, 2018
-The primary goal of this file is to demonstrate a simple unittest implementation
+Author: Nikhil Kumar G
+This program is used to test the classifyTriangle program's function used for determining the type of triangle
 
-@author: jrr
-@author: rk
 """
 
 import unittest
