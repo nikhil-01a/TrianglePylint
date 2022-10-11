@@ -24,7 +24,7 @@ def classify_triangle(a_s,b_s,c_s):
         if a_s==b_s and b_s==c_s:
             return 'Equilateral triangle'
         if a_s==b_s or b_s==c_s or a_s==c_s:
-            return 'Isosceles triangle.'
+            return 'Isosceles triangle'
         if a_s**2+b_s**2==c_s**2 or b_s**2+c_s**2==a_s**2 or c_s**2+a_s**2==b_s**2:
             return 'Right angled triangle'
         return 'Scalene triangle'
