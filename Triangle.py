@@ -21,3 +21,4 @@ def classifyTriangle(a,b,c):
             return 'Scalene triangle.'
     else:
         return 'Not a triangle.'
+
